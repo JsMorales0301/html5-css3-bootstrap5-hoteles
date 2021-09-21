@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guia-Hoteles</title>
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-blue">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
+              height="20"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarRightAlignExample"
+            aria-controls="navbarRightAlignExample"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarRightAlignExample">
+            <!-- Links -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reserva">Reserva</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hoteles">Hoteles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#protocolos">Protocolos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactanos">Contáctanos</a>
+              </li>
+            </ul>
+            <!-- Left links -->
+          </div>
+          <!-- Collapsible wrapper -->
+        </div>
+      </nav>
+
+      <div class="bg-image">
+        <div class="mask">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <h1 class="mb-3">
+                HOTELES
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="reserva">
+      <div class="container mb-5">
+        <div class="m-5 row text-center">
+          <h1>Reserva</h1>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h2>¿Cómo funciona?</h2>
+            <p>Busca los hoteles de acuerdo a tu preferencia.</p>
+          </div>
+          <div class="col-md">
+            <i class="fas fa-city fa-3x"></i>
+            <h2>¿Donde puedo reservar?</h2>
+            <p>
+              Elije la ciudad que te interese y luego realiza la reserva con tus
+              datos.
+            </p>
+          </div>
+          <div class="col-md">
+            <i class="fas fa-credit-card fa-3x"></i>
+            <h2>¿Cómo pago?</h2>
+            <p>Usa tú medio de pago favorito.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hoteles">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/Hotel-Tequendama.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Hotel en Bogotá</h5>
+                <p class="card-text">
+                  Hotel ubicado en pleno centro de la ciudad de Bogotá -
+                  Colombia.
+                </p>
+                <a href="#!">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/Hotel-Joya.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Hotel en Quito</h5>
+                <p class="card-text">
+                  Hotel ubicado en pleno centro de la ciudad de Quito - Ecuador.
+                </p>
+                <a href="#!">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/Hotel-Grand.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Hotel en Buenos Aires</h5>
+                <p class="card-text">
+                  Hotel ubicado en pleno centro de la ciudad de Buenos Aires -
+                  Argentina.
+                </p>
+                <a href="#!">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img src="/assets/Hotel-Riu.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h5 class="card-title">Hotel en Madrid</h5>
+                <p class="card-text">
+                  Hotel ubicado en pleno centro de la ciudad de Madrid - España.
+                </p>
+                <a href="#!">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/Hotel-Hilton.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Hotel en Barcelona</h5>
+                <p class="card-text">
+                  Hotel ubicado en pleno centro de la ciudad de Barcelona -
+                  España.
+                </p>
+                <a href="#!">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/assets/Hotel-Marriot.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Hotel en Lima</h5>
+                <p class="card-text">
+                  Hotel ubicado en pleno centro de la ciudad de Lima - Perú.
+                </p>
+                <a href="#!">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="protocolos">
+      <div class="container">
+        <div class="row m-5 text-center">
+          <h2>Viaja con confianza</h2>
+          <p>
+            Muchos establecimientos nos informaron sobre sus medidas reforzadas
+            de salud y limpieza. Por lo tanto, en tu busqueda podrías ver datos
+            como:
+          </p>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <i class="fas fa-medkit fa-3x"></i>
+            <h4>Estándares oficiales de salud</h4>
+            <p>
+              Establecimientos que incorporaron los lineamientos de desinfección
+              corporativos u organizacionales.
+            </p>
+          </div>
+          <div class="col">
+            <i class="fas fa-spray-can fa-3x"></i>
+            <h4>Higiene y desinfección</h4>
+            <p>
+              Uso de desinfectante y si se implementó un lapso de tiempo entre
+              estadías.
+            </p>
+          </div>
+          <div class="col">
+            <i class="fas fa-people-arrows fa-3x"></i>
+            <h4>Distanciamiento social</h4>
+            <p>
+              Distanciamiento social Check-in y check-out sin contacto, entre
+              otras medidas para mantener el distanciamiento social.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactanos" class="parallax text-dark m-5">
+      <div class="container">
+        <div class="row m-5 text-center">
+          <h2>Contáctenos</h2>
+          <hr />
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <!-- -->
+            <form autocomplete="off" method="GET">
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <input
+                  type="text"
+                  id="fullname"
+                  class="form-control"
+                  required
+                  name="fullname"
+                />
+                <label class="form-label" for="fullname"
+                  >Nombre Completo</label
+                >
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="correo" class="form-control" required/>
+                <label class="form-label" for="correo">Correo</label>
+              </div>
+
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea
+                  class="form-control"
+                  id="mensaje"
+                  rows="4"
+                ></textarea>
+                <label class="form-label" for="mensaje"> Mensaje</label>
+              </div>
+
+              <!-- Checkbox -->
+              <div class="form-check d-flex justify-content-center mb-4">
+                <input
+                  class="form-check-input me-2"
+                  type="checkbox"
+                  value=""
+                  id="check"
+                  checked
+                />
+                <label class="form-check-label" for="form4Example4">
+                  Enviarme una copia de este mensaje.
+                </label>
+              </div>
+
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-primary">Envíar</button>
+            </form>
+          </div>
+          <div class="col text-center">
+            <address>
+              <h3>Oficina central</h3>
+              <p>carrera 42 # 22-10, Cundinamarca</p>
+              <p>+573103113203</p>
+              <p>contacto@guiahoteles.com</p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.798310385671!2d-74.09705798541873!3d4.630041696636575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bded477a899%3A0x1b4e6055deb6f281!2sCra.%2042%20%2322-10%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1632168963806!5m2!1ses-419!2sco"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                id="mapa"
+              ></iframe>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center text-white bg-blue">
+      <div class="container pt-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Twitter -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-twitter"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Instagram -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <!-- Github -->
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3"">
+          <hr>
+        © 2021 Copyright -
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >Todos los derechos reservados</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+    ></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
